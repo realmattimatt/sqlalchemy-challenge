@@ -1,0 +1,16 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# SQLite database files (if you don't want to track them)
+# *.sqlite
