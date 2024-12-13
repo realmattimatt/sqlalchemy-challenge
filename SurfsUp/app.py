@@ -48,9 +48,9 @@ def home():
     return (
         f"Welcome to the Hawaii Climate Analysis API!<br/>"
         f"Available Routes:<br/>"
-        f"/api/v1.0/precipitation<br/>" # Route to get precipitation data for the last 12 months
-        f"/api/v1.0/stations<br/>"      # Route to get a list of weather stations
-        f"/api/v1.0/tobs<br/>"          # Route to get temperature observations from the most active station
+        f"/api/v1.0/precipitation (Route to get precipitation data for the last 12 months)<br/>"
+        f"/api/v1.0/stations (Route to get a list of weather stations)<br/>"
+        f"/api/v1.0/tobs (Route to get temperature observations from the most active station)<br/>"
         f"/api/v1.0/&lt;start&gt; (Where 'start' is a date in YYYY-MM-DD format)<br/>"                              # Route to get temperature data starting from a specific date
         f"/api/v1.0/&lt;start&gt;/&lt;end&gt; (Where 'start' and 'end' are dates in YYYY-MM-DD format)<br/>"        # Route to get temperature data for a specific date range
     )
